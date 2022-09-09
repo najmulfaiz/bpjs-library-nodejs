@@ -1,0 +1,1 @@
+const BpjsService = require('./src/BpjsService');
