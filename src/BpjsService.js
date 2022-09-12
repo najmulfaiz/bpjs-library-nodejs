@@ -46,7 +46,7 @@ export default class BpjsService {
       method: method,
       url: this.BASE_URL_ANTREAN + service,
       headers: this.headers,
-      data: method == 'post' ? data : null,
+      data: _.includes(['post', 'put', 'delete'], method) ? data : null,
     }).then(function (response) {
       return self.responseAntrol(response.data);
     })
@@ -72,7 +72,8 @@ export default class BpjsService {
     return axios({
       method: method,
       url: this.BASE_URL_VCLAIM + service,
-      headers: this.headers
+      headers: this.headers,
+      data: _.includes(['post', 'put', 'delete'], method) ? data : null,
     }).then(function (response) {
       return self.responseVClaim(response.data);
     })
