@@ -1,7 +1,7 @@
 {
-  "name": "bpjs-library-nodejs",
+  "name": "bpjs-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package is a wrapper of BPJS VClaim, Antrean Web Service https://dvlp.bpjs-kesehatan.go.id:8888/trust-mark ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
