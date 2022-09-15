@@ -1,5 +1,5 @@
 # BPJS Kesehatan Indonesia
-PHP package to access BPJS Kesehatan API :ambulance:.
+Javascript package to access BPJS Kesehatan API :ambulance:.
 This package is a wrapper of BPJS VClaim, Antrean Web Service
 https://dvlp.bpjs-kesehatan.go.id:8888/trust-mark
 
